@@ -740,6 +740,7 @@ document.getElementById("ingredient__btn").addEventListener("click", function ()
         list.lastElementChild.innerHTML = `${ ingredientField } ${ buttons }`
     } else {
         //zapis po edycji uzytkownika
+        //zapis po edycji uzytkownika
         let ingredientFieldEdited = document.getElementById("ingredientField").value;
         //Wypchnij dane do tablicy tymczasowej
         recipeIngredients.push(ingredientFieldEdited);
